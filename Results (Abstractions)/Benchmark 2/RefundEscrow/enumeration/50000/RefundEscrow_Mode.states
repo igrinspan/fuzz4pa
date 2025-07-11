@@ -1,0 +1,13 @@
+digraph {
+init->"1-0-0-" [label="constructor"]
+"1-0-0-"->"1-0-0-" [label="transferPrimary(recipient)\ndeposit(refundee)"]
+"1-0-0-"->"0-0-3-" [label="close()"]
+"1-0-0-"->"0-2-0-" [label="enableRefunds()"]
+"0-2-0-"->"0-2-0-" [label="withdraw(payee)\ntransferPrimary(recipient)"]
+"0-0-3-"->"0-0-3-" [label="beneficiaryWithdraw()\ntransferPrimary(recipient)"]
+// RefundEscrow
+init[label="init"]
+"1-0-0-"[label="Active"]
+"0-0-3-"[label="Close"]
+"0-2-0-"[label="Refunding"]
+}

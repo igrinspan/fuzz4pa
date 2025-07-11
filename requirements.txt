@@ -1,0 +1,10 @@
+graphviz==0.21
+markdown-it-py==3.0.0
+mdurl==0.1.2
+numpy==2.3.1
+psutil==7.0.0
+Pygments==2.19.2
+pygraphviz==1.14
+rich==14.0.0
+setuptools==80.9.0
+wheel==0.45.1

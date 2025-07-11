@@ -1,0 +1,18 @@
+digraph {
+init->"1-0-0-0-0-0-" [label="constructor"]
+"1-0-0-0-0-0-"->"0-0-3-0-0-0-" [label="choicePlayer2(choice)"]
+"1-0-0-0-0-0-"->"0-2-0-0-0-0-" [label="choicePlayer1(choice)"]
+"0-0-3-0-0-0-"->"0-0-0-4-0-0-" [label="choicePlayer1(choice)"]
+"0-0-3-0-0-0-"->"0-0-0-0-0-6-" [label="choicePlayer1(choice)"]
+"0-0-3-0-0-0-"->"0-0-0-0-5-0-" [label="choicePlayer1(choice)"]
+"0-0-0-0-5-0-"->"0-0-0-0-5-0-" [label="determineWinner()"]
+"0-0-0-0-0-6-"->"0-0-0-0-0-6-" [label="determineWinner()"]
+// RockPaperScissors
+init[label="init"]
+"1-0-0-0-0-0-"[label="No bets"]
+"0-0-3-0-0-0-"[label="Only Player2 bets"]
+"0-2-0-0-0-0-"[label="Only Player1 bets"]
+"0-0-0-4-0-0-"[label="Both bet and Player1 wins"]
+"0-0-0-0-0-6-"[label="Both bet and Owner wins (draw)"]
+"0-0-0-0-5-0-"[label="Both bet and Player2 wins"]
+}

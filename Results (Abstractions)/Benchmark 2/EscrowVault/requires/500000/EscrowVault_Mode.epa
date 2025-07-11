@@ -1,0 +1,16 @@
+digraph {
+init->"1-2-0-0-0-6-0-8-" [label="constructor"]
+"0-0-0-0-0-0-0-8-"->"0-0-0-0-0-0-0-8-" [label="transferOwnership(newOwner)"]
+"0-0-0-0-0-0-7-8-"->"0-0-0-0-0-0-7-8-" [label="transferOwnership(newOwner)\nrefund(investor)"]
+"1-2-0-0-0-6-0-8-"->"0-0-0-0-0-0-7-8-" [label="enableRefunds()"]
+"1-2-0-0-0-6-0-8-"->"1-2-0-0-0-6-0-8-" [label="transferOwnership(newOwner)\ndeposit(investor)"]
+"1-2-0-0-0-6-0-8-"->"1-0-3-4-5-0-0-8-" [label="setGoalReached()"]
+"1-0-3-4-5-0-0-8-"->"1-0-3-4-5-0-0-8-" [label="withdraw(_amount)\ndeposit(investor)\nwithdrawAll()\ntransferOwnership(newOwner)"]
+"1-0-3-4-5-0-0-8-"->"0-0-0-0-0-0-0-8-" [label="close()"]
+// EscrowVault
+init[label="init"]
+"1-2-0-0-0-6-0-8-"[label="deposit(investor)\nsetGoalReached()\nenableRefunds()\ntransferOwnership(newOwner)"]
+"0-0-0-0-0-0-0-8-"[label="transferOwnership(newOwner)"]
+"0-0-0-0-0-0-7-8-"[label="refund(investor)\ntransferOwnership(newOwner)"]
+"1-0-3-4-5-0-0-8-"[label="deposit(investor)\nwithdraw(_amount)\nwithdrawAll()\nclose()\ntransferOwnership(newOwner)"]
+}

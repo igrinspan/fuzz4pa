@@ -1,0 +1,242 @@
+[
+    {
+        "contract": "AssetTransfer",
+        "test_limit": 1000,
+        "time_in_s": 10.36
+    },
+    {
+        "contract": "BasicProvenance",
+        "test_limit": 1000,
+        "time_in_s": 1.25
+    },
+    {
+        "contract": "DefectiveComponentCounter",
+        "test_limit": 1000,
+        "time_in_s": 1.23
+    },
+    {
+        "contract": "DigitalLocker",
+        "test_limit": 1000,
+        "time_in_s": 7.3
+    },
+    {
+        "contract": "FrequentFlyerRewardsCalculator",
+        "test_limit": 1000,
+        "time_in_s": 1.31
+    },
+    {
+        "contract": "HelloBlockchain",
+        "test_limit": 1000,
+        "time_in_s": 1.24
+    },
+    {
+        "contract": "RefrigeratedTransportation",
+        "test_limit": 1000,
+        "time_in_s": 1.52
+    },
+    {
+        "contract": "RoomThermostat",
+        "test_limit": 1000,
+        "time_in_s": 1.22
+    },
+    {
+        "contract": "SimpleMarketplace",
+        "test_limit": 1000,
+        "time_in_s": 1.32
+    },
+    {
+        "contract": "AssetTransferFixed",
+        "test_limit": 1000,
+        "time_in_s": 10.39
+    },
+    {
+        "contract": "BasicProvenanceFixed",
+        "test_limit": 1000,
+        "time_in_s": 1.24
+    },
+    {
+        "contract": "DefectiveComponentCounterFixed",
+        "test_limit": 1000,
+        "time_in_s": 1.23
+    },
+    {
+        "contract": "DigitalLockerFixed",
+        "test_limit": 1000,
+        "time_in_s": 6.77
+    },
+    {
+        "contract": "HelloBlockchainFixed",
+        "test_limit": 1000,
+        "time_in_s": 1.2
+    },
+    {
+        "contract": "RefrigeratedTransportationFixed",
+        "test_limit": 1000,
+        "time_in_s": 1.43
+    },
+    {
+        "contract": "SimpleMarketplaceFixed",
+        "test_limit": 1000,
+        "time_in_s": 1.29
+    },
+    {
+        "contract": "AssetTransfer",
+        "test_limit": 50000,
+        "time_in_s": 63.67
+    },
+    {
+        "contract": "BasicProvenance",
+        "test_limit": 50000,
+        "time_in_s": 2.95
+    },
+    {
+        "contract": "DefectiveComponentCounter",
+        "test_limit": 50000,
+        "time_in_s": 3.15
+    },
+    {
+        "contract": "DigitalLocker",
+        "test_limit": 50000,
+        "time_in_s": 42.31
+    },
+    {
+        "contract": "FrequentFlyerRewardsCalculator",
+        "test_limit": 50000,
+        "time_in_s": 6.52
+    },
+    {
+        "contract": "HelloBlockchain",
+        "test_limit": 50000,
+        "time_in_s": 3.43
+    },
+    {
+        "contract": "RefrigeratedTransportation",
+        "test_limit": 50000,
+        "time_in_s": 5.67
+    },
+    {
+        "contract": "RoomThermostat",
+        "test_limit": 50000,
+        "time_in_s": 2.72
+    },
+    {
+        "contract": "SimpleMarketplace",
+        "test_limit": 50000,
+        "time_in_s": 3.43
+    },
+    {
+        "contract": "AssetTransferFixed",
+        "test_limit": 50000,
+        "time_in_s": 60.64
+    },
+    {
+        "contract": "BasicProvenanceFixed",
+        "test_limit": 50000,
+        "time_in_s": 2.62
+    },
+    {
+        "contract": "DefectiveComponentCounterFixed",
+        "test_limit": 50000,
+        "time_in_s": 3.11
+    },
+    {
+        "contract": "DigitalLockerFixed",
+        "test_limit": 50000,
+        "time_in_s": 28.71
+    },
+    {
+        "contract": "HelloBlockchainFixed",
+        "test_limit": 50000,
+        "time_in_s": 2.26
+    },
+    {
+        "contract": "RefrigeratedTransportationFixed",
+        "test_limit": 50000,
+        "time_in_s": 4.5
+    },
+    {
+        "contract": "SimpleMarketplaceFixed",
+        "test_limit": 50000,
+        "time_in_s": 2.97
+    },
+    {
+        "contract": "AssetTransfer",
+        "test_limit": 500000,
+        "time_in_s": 539.07
+    },
+    {
+        "contract": "BasicProvenance",
+        "test_limit": 500000,
+        "time_in_s": 18.21
+    },
+    {
+        "contract": "DefectiveComponentCounter",
+        "test_limit": 500000,
+        "time_in_s": 21.57
+    },
+    {
+        "contract": "DigitalLocker",
+        "test_limit": 500000,
+        "time_in_s": 352.96
+    },
+    {
+        "contract": "FrequentFlyerRewardsCalculator",
+        "test_limit": 500000,
+        "time_in_s": 55.67
+    },
+    {
+        "contract": "HelloBlockchain",
+        "test_limit": 500000,
+        "time_in_s": 25.29
+    },
+    {
+        "contract": "RefrigeratedTransportation",
+        "test_limit": 500000,
+        "time_in_s": 42.04
+    },
+    {
+        "contract": "RoomThermostat",
+        "test_limit": 500000,
+        "time_in_s": 15.72
+    },
+    {
+        "contract": "SimpleMarketplace",
+        "test_limit": 500000,
+        "time_in_s": 21.87
+    },
+    {
+        "contract": "AssetTransferFixed",
+        "test_limit": 500000,
+        "time_in_s": 499.26
+    },
+    {
+        "contract": "BasicProvenanceFixed",
+        "test_limit": 500000,
+        "time_in_s": 15.09
+    },
+    {
+        "contract": "DefectiveComponentCounterFixed",
+        "test_limit": 500000,
+        "time_in_s": 21.79
+    },
+    {
+        "contract": "DigitalLockerFixed",
+        "test_limit": 500000,
+        "time_in_s": 220.38
+    },
+    {
+        "contract": "HelloBlockchainFixed",
+        "test_limit": 500000,
+        "time_in_s": 12.54
+    },
+    {
+        "contract": "RefrigeratedTransportationFixed",
+        "test_limit": 500000,
+        "time_in_s": 33.47
+    },
+    {
+        "contract": "SimpleMarketplaceFixed",
+        "test_limit": 500000,
+        "time_in_s": 18.22
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "contract": "AuctionEnded",
+        "test_limit": 1000,
+        "time_in_s": 7.74
+    },
+    {
+        "contract": "AuctionEnded",
+        "test_limit": 50000,
+        "time_in_s": 20.25
+    },
+    {
+        "contract": "AuctionEnded",
+        "test_limit": 500000,
+        "time_in_s": 145.11
+    },
+    {
+        "contract": "Crowdfunding",
+        "test_limit": 1000,
+        "time_in_s": 2.76
+    },
+    {
+        "contract": "Crowdfunding",
+        "test_limit": 50000,
+        "time_in_s": 7.26
+    },
+    {
+        "contract": "Crowdfunding",
+        "test_limit": 500000,
+        "time_in_s": 47.53
+    },
+    {
+        "contract": "EPXCrowdsale",
+        "test_limit": 1000,
+        "time_in_s": 8.1
+    },
+    {
+        "contract": "EPXCrowdsale",
+        "test_limit": 50000,
+        "time_in_s": 31.08
+    },
+    {
+        "contract": "EPXCrowdsale",
+        "test_limit": 500000,
+        "time_in_s": 246.13
+    },
+    {
+        "contract": "EscrowVault",
+        "test_limit": 1000,
+        "time_in_s": 6.45
+    },
+    {
+        "contract": "EscrowVault",
+        "test_limit": 50000,
+        "time_in_s": 18.18
+    },
+    {
+        "contract": "EscrowVault",
+        "test_limit": 500000,
+        "time_in_s": 138.89
+    },
+    {
+        "contract": "RefundEscrow",
+        "test_limit": 1000,
+        "time_in_s": 2.49
+    },
+    {
+        "contract": "RefundEscrow",
+        "test_limit": 50000,
+        "time_in_s": 6.41
+    },
+    {
+        "contract": "RefundEscrow",
+        "test_limit": 500000,
+        "time_in_s": 46.63
+    },
+    {
+        "contract": "RockPaperScissors",
+        "test_limit": 1000,
+        "time_in_s": 6.13
+    },
+    {
+        "contract": "RockPaperScissors",
+        "test_limit": 50000,
+        "time_in_s": 13.73
+    },
+    {
+        "contract": "RockPaperScissors",
+        "test_limit": 500000,
+        "time_in_s": 86.64
+    },
+    {
+        "contract": "SimpleAuctionHB",
+        "test_limit": 1000,
+        "time_in_s": 6.37
+    },
+    {
+        "contract": "SimpleAuctionHB",
+        "test_limit": 50000,
+        "time_in_s": 18.2
+    },
+    {
+        "contract": "SimpleAuctionHB",
+        "test_limit": 500000,
+        "time_in_s": 123.18
+    },
+    {
+        "contract": "ValidatorAuction",
+        "test_limit": 1000,
+        "time_in_s": 7.64
+    },
+    {
+        "contract": "ValidatorAuction",
+        "test_limit": 50000,
+        "time_in_s": 40.71
+    },
+    {
+        "contract": "ValidatorAuction",
+        "test_limit": 500000,
+        "time_in_s": 331.08
+    }
+]

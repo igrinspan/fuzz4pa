@@ -1,0 +1,11 @@
+digraph {
+init->"1-0-" [label="constructor"]
+"1-0-"->"1-2-" [label="TransferResponsibility(newCounterparty)"]
+"1-2-"->"0-0-" [label="Complete()"]
+"1-2-"->"1-2-" [label="TransferResponsibility(newCounterparty)"]
+// BasicProvenance
+init[label="init"]
+"1-0-"[label="TransferResponsibility(newCounterparty)"]
+"1-2-"[label="TransferResponsibility(newCounterparty)\nComplete()"]
+"0-0-"[label="Vacio"]
+}

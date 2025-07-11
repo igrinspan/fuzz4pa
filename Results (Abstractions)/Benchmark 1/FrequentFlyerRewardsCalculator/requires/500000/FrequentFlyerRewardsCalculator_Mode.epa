@@ -1,0 +1,7 @@
+digraph {
+init->"1-2-" [label="constructor"]
+"1-2-"->"1-2-" [label="GetMiles()\nAddMiles(miles)"]
+// FrequentFlyerRewardsCalculator
+init[label="init"]
+"1-2-"[label="AddMiles(miles)\nGetMiles()"]
+}

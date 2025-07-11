@@ -1,0 +1,9 @@
+digraph {
+init->"1-0-0-0-0-" [label="constructor"]
+"1-0-0-0-0-"->"1-0-0-0-0-" [label="addToWhitelist(addressesToWhitelist)"]
+"1-0-0-0-0-"->"0-2-0-0-0-" [label="startAuction()"]
+// ValidatorAuction
+init[label="init"]
+"1-0-0-0-0-"[label="Deployed"]
+"0-2-0-0-0-"[label="Started"]
+}

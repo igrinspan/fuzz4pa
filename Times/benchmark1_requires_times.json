@@ -1,0 +1,197 @@
+[
+    {
+        "contract": "BasicProvenance",
+        "test_limit": 1000,
+        "time_in_s": 1.2
+    },
+    {
+        "contract": "DefectiveComponentCounter",
+        "test_limit": 1000,
+        "time_in_s": 1.21
+    },
+    {
+        "contract": "DigitalLocker",
+        "test_limit": 1000,
+        "time_in_s": 1.39
+    },
+    {
+        "contract": "FrequentFlyerRewardsCalculator",
+        "test_limit": 1000,
+        "time_in_s": 1.28
+    },
+    {
+        "contract": "HelloBlockchain",
+        "test_limit": 1000,
+        "time_in_s": 1.23
+    },
+    {
+        "contract": "RefrigeratedTransportation",
+        "test_limit": 1000,
+        "time_in_s": 1.55
+    },
+    {
+        "contract": "RoomThermostat",
+        "test_limit": 1000,
+        "time_in_s": 1.35
+    },
+    {
+        "contract": "SimpleMarketplace",
+        "test_limit": 1000,
+        "time_in_s": 1.41
+    },
+    {
+        "contract": "BasicProvenanceFixed",
+        "test_limit": 1000,
+        "time_in_s": 1.29
+    },
+    {
+        "contract": "DefectiveComponentCounterFixed",
+        "test_limit": 1000,
+        "time_in_s": 1.24
+    },
+    {
+        "contract": "HelloBlockchainFixed",
+        "test_limit": 1000,
+        "time_in_s": 1.27
+    },
+    {
+        "contract": "RefrigeratedTransportationFixed",
+        "test_limit": 1000,
+        "time_in_s": 1.52
+    },
+    {
+        "contract": "SimpleMarketplaceFixed",
+        "test_limit": 1000,
+        "time_in_s": 1.34
+    },
+    {
+        "contract": "BasicProvenance",
+        "test_limit": 50000,
+        "time_in_s": 2.47
+    },
+    {
+        "contract": "DefectiveComponentCounter",
+        "test_limit": 50000,
+        "time_in_s": 3.43
+    },
+    {
+        "contract": "DigitalLocker",
+        "test_limit": 50000,
+        "time_in_s": 4.98
+    },
+    {
+        "contract": "FrequentFlyerRewardsCalculator",
+        "test_limit": 50000,
+        "time_in_s": 5.83
+    },
+    {
+        "contract": "HelloBlockchain",
+        "test_limit": 50000,
+        "time_in_s": 3.2
+    },
+    {
+        "contract": "RefrigeratedTransportation",
+        "test_limit": 50000,
+        "time_in_s": 4.9
+    },
+    {
+        "contract": "RoomThermostat",
+        "test_limit": 50000,
+        "time_in_s": 3.37
+    },
+    {
+        "contract": "SimpleMarketplace",
+        "test_limit": 50000,
+        "time_in_s": 3.76
+    },
+    {
+        "contract": "BasicProvenanceFixed",
+        "test_limit": 50000,
+        "time_in_s": 2.6
+    },
+    {
+        "contract": "DefectiveComponentCounterFixed",
+        "test_limit": 50000,
+        "time_in_s": 2.93
+    },
+    {
+        "contract": "HelloBlockchainFixed",
+        "test_limit": 50000,
+        "time_in_s": 2.7
+    },
+    {
+        "contract": "RefrigeratedTransportationFixed",
+        "test_limit": 50000,
+        "time_in_s": 3.97
+    },
+    {
+        "contract": "SimpleMarketplaceFixed",
+        "test_limit": 50000,
+        "time_in_s": 2.96
+    },
+    {
+        "contract": "BasicProvenance",
+        "test_limit": 500000,
+        "time_in_s": 13.54
+    },
+    {
+        "contract": "DefectiveComponentCounter",
+        "test_limit": 500000,
+        "time_in_s": 24.39
+    },
+    {
+        "contract": "DigitalLocker",
+        "test_limit": 500000,
+        "time_in_s": 37.89
+    },
+    {
+        "contract": "FrequentFlyerRewardsCalculator",
+        "test_limit": 500000,
+        "time_in_s": 55.72
+    },
+    {
+        "contract": "HelloBlockchain",
+        "test_limit": 500000,
+        "time_in_s": 23.6
+    },
+    {
+        "contract": "RefrigeratedTransportation",
+        "test_limit": 500000,
+        "time_in_s": 34.57
+    },
+    {
+        "contract": "RoomThermostat",
+        "test_limit": 500000,
+        "time_in_s": 20.69
+    },
+    {
+        "contract": "SimpleMarketplace",
+        "test_limit": 500000,
+        "time_in_s": 25.07
+    },
+    {
+        "contract": "BasicProvenanceFixed",
+        "test_limit": 500000,
+        "time_in_s": 14.54
+    },
+    {
+        "contract": "DefectiveComponentCounterFixed",
+        "test_limit": 500000,
+        "time_in_s": 18.4
+    },
+    {
+        "contract": "HelloBlockchainFixed",
+        "test_limit": 500000,
+        "time_in_s": 15.73
+    },
+    {
+        "contract": "RefrigeratedTransportationFixed",
+        "test_limit": 500000,
+        "time_in_s": 25.77
+    },
+    {
+        "contract": "SimpleMarketplaceFixed",
+        "test_limit": 500000,
+        "time_in_s": 17.4
+    }
+]

@@ -1,0 +1,10 @@
+digraph {
+init->"1-2-" [label="constructor"]
+"1-2-"->"0-2-" [label="ComputeTotal()"]
+"0-2-"->"0-2-" [label="GetDefectiveComponentsCounτ"]
+"1-2-"->"1-2-" [label="GetDefectiveComponentsCounτ"]
+// DefectiveComponentCounter
+init[label="init"]
+"1-2-"[label="ComputeTotal()GetDefectiveComponentsCoun"]
+"0-2-"[label="GetDefectiveComponentsCoun"]
+}

@@ -1,0 +1,9 @@
+digraph {
+init->"0-2-" [label="constructor"]
+"0-2-"->"1-0-" [label="SendResponse(responseMessage)"]
+"1-0-"->"0-2-" [label="SendRequest(requestMessage)"]
+// HelloBlockchain
+init[label="init"]
+"0-2-"[label="SendResponse(responseMessage)"]
+"1-0-"[label="SendRequest(requestMessage)"]
+}
