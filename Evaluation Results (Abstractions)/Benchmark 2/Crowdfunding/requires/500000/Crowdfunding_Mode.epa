@@ -1,0 +1,19 @@
+digraph {
+init->"0-2-0-" [label="constructor"]
+init->"1-0-0-" [label="constructor"]
+init->"0-0-0-" [label="constructor"]
+"1-0-0-"->"0-2-0-" [label="Donate(n)"]
+"1-0-0-"->"0-0-0-" [label="Donate(n)"]
+"0-2-0-"->"0-2-0-" [label="GetFunds(p)"]
+"0-0-3-"->"0-0-3-" [label="Claim(q)"]
+"1-0-0-"->"0-0-3-" [label="Donate(n)"]
+"0-0-3-"->"0-0-0-" [label="Claim(q)"]
+"0-2-0-"->"0-0-0-" [label="GetFunds(p)"]
+"1-0-0-"->"1-0-0-" [label="Donate(n)"]
+// Crowdfunding
+init[label="init"]
+"0-2-0-"[label="GetFunds(p)"]
+"1-0-0-"[label="Donate(n)"]
+"0-0-0-"[label="Empty"]
+"0-0-3-"[label="Claim(q)"]
+}

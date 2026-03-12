@@ -1,0 +1,15 @@
+digraph {
+init->"1-0-0-0-" [label="constructor"]
+"0-2-0-0-"->"0-0-0-4-" [label="IngestTelemetry(humidity,temperature,timestamp)"]
+"1-0-0-0-"->"0-0-3-0-" [label="Complete()"]
+"1-0-0-0-"->"0-2-0-0-" [label="TransferResponsibility(newCounterparty)"]
+"0-2-0-0-"->"0-2-0-0-" [label="TransferResponsibility(newCounterparty)"]
+"1-0-0-0-"->"0-0-0-4-" [label="IngestTelemetry(humidity,temperature,timestamp)"]
+"0-2-0-0-"->"0-0-3-0-" [label="Complete()"]
+// RefrigeratedTransportation
+init[label="init"]
+"1-0-0-0-"[label="Created"]
+"0-2-0-0-"[label="InTransit"]
+"0-0-0-4-"[label="OutOfCompliance"]
+"0-0-3-0-"[label="Completed"]
+}

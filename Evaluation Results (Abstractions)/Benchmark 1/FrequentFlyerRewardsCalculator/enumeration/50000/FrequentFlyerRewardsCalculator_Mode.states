@@ -1,0 +1,9 @@
+digraph {
+init->"1-0-" [label="constructor"]
+"1-0-"->"0-2-" [label="AddMiles(miles)"]
+"0-2-"->"0-2-" [label="AddMiles(miles)"]
+// FrequentFlyerRewardsCalculator
+init[label="init"]
+"1-0-"[label="SetFlyerAndReward"]
+"0-2-"[label="MilesAdded"]
+}

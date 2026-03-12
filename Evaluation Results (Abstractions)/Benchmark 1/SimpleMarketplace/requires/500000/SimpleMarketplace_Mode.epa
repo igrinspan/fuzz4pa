@@ -1,0 +1,13 @@
+digraph {
+init->"1-2-0-" [label="constructor"]
+"0-2-0-"->"0-2-0-" [label="AcceptOffer()"]
+"1-2-0-"->"0-2-3-" [label="MakeOffer(offerPrice)"]
+"0-2-3-"->"0-2-0-" [label="AcceptOffer()"]
+"0-2-3-"->"1-2-0-" [label="Rejecτ"]
+"1-2-0-"->"0-2-0-" [label="AcceptOffer()"]
+// SimpleMarketplace
+init[label="init"]
+"1-2-0-"[label="MakeOffer(offerPrice)\nAcceptOffer()"]
+"0-2-0-"[label="AcceptOffer()"]
+"0-2-3-"[label="AcceptOffer()Rejec"]
+}

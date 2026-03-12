@@ -1,0 +1,14 @@
+graphviz==0.21
+markdown-it-py==3.0.0
+mdurl==0.1.2
+numpy==2.3.1
+psutil==7.0.0
+Pygments==2.19.2
+pygraphviz==1.14
+rich==14.0.0
+setuptools==80.9.0
+wheel==0.45.1
+flask==3.1.0
+flask-cors==5.0.1
+crytic-compile==0.3.5
+slither-analyzer==0.9.3

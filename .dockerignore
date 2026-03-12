@@ -1,0 +1,12 @@
+venv/
+.venv/
+results/
+fuzz4pa_results/
+__pycache__/
+*.pyc
+.git/
+.DS_Store
+.gitignore
+README.md
+*.egg-info/
+run_all.py

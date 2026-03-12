@@ -1,0 +1,17 @@
+digraph {
+init->"1-0-0-0-0-0-0-0-0-0-" [label="constructor"]
+"1-0-0-0-0-0-0-0-0-0-"->"0-2-0-0-0-0-0-0-0-0-" [label="MakeOffer(inspector,appraiser,offerPrice)"]
+"0-2-0-0-0-0-0-0-0-0-"->"1-0-0-0-0-0-0-0-0-0-" [label="RescindOffer()\nRejecτ"]
+"1-0-0-0-0-0-0-0-0-0-"->"0-0-0-0-0-0-0-0-0-10-" [label="Terminate()"]
+"1-0-0-0-0-0-0-0-0-0-"->"1-0-0-0-0-0-0-0-0-0-" [label="Modify(price)"]
+"0-2-0-0-0-0-0-0-0-0-"->"0-0-3-0-0-0-0-0-0-0-" [label="AcceptOffer()"]
+"0-2-0-0-0-0-0-0-0-0-"->"0-2-0-0-0-0-0-0-0-0-" [label="ModifyOffer(offerPrice)"]
+"0-0-3-0-0-0-0-0-0-0-"->"1-0-0-0-0-0-0-0-0-0-" [label="RescindOffer()\nRejecτ"]
+"0-2-0-0-0-0-0-0-0-0-"->"0-0-0-0-0-0-0-0-0-10-" [label="Terminate()"]
+// AssetTransfer
+init[label="init"]
+"1-0-0-0-0-0-0-0-0-0-"[label="Active"]
+"0-2-0-0-0-0-0-0-0-0-"[label="OfferPlaced"]
+"0-0-0-0-0-0-0-0-0-10-"[label="Terminated"]
+"0-0-3-0-0-0-0-0-0-0-"[label="PendingInspection"]
+}

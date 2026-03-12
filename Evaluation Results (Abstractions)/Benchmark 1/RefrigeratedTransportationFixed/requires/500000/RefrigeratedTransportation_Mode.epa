@@ -1,0 +1,13 @@
+digraph {
+init->"1-2-0-" [label="constructor"]
+"1-2-0-"->"1-2-0-" [label="IngestTelemetry(humidity,temperature,timestamp)"]
+"1-2-3-"->"1-2-3-" [label="TransferResponsibility(newCounterparty)\nIngestTelemetry(humidity,temperature,timestamp)"]
+"1-2-0-"->"1-2-3-" [label="TransferResponsibility(newCounterparty)"]
+"1-2-3-"->"0-0-0-" [label="Complete()\nIngestTelemetry(humidity,temperature,timestamp)"]
+"1-2-0-"->"0-0-0-" [label="IngestTelemetry(humidity,temperature,timestamp)"]
+// RefrigeratedTransportation
+init[label="init"]
+"1-2-0-"[label="IngestTelemetry(humidity, temperature, timestamp)\nTransferResponsibility(newCounterparty)"]
+"1-2-3-"[label="IngestTelemetry(humidity, temperature, timestamp)\nTransferResponsibility(newCounterparty)\nComplete()"]
+"0-0-0-"[label="Vacio"]
+}

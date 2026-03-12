@@ -1,0 +1,11 @@
+digraph {
+init->"1-0-0-4-" [label="constructor"]
+"1-0-0-4-"->"1-2-0-4-" [label="bid()"]
+"1-0-0-4-"->"1-0-0-4-" [label="τ\nbid()"]
+"1-2-0-4-"->"1-2-0-4-" [label="withdraw()\nbid()\nτ"]
+"1-2-0-4-"->"1-0-0-4-" [label="withdraw()"]
+// SimpleAuction
+init[label="init"]
+"1-0-0-4-"[label="bid() "]
+"1-2-0-4-"[label="bid()\nwithdraw()"]
+}

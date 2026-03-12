@@ -1,0 +1,12 @@
+digraph {
+init->"1-0-0-0-0-6-" [label="constructor"]
+"1-0-0-0-0-6-"->"1-0-0-0-0-6-" [label="τ"]
+"1-0-0-0-0-6-"->"0-0-0-4-0-6-" [label="SetupCrowdsale(_fundingStartBlock,_fundingEndBlock)"]
+"0-0-0-4-0-6-"->"0-0-0-4-0-6-" [label="checkGoalReached()\nτ"]
+"0-2-0-4-0-6-"->"0-2-0-4-0-6-" [label="τ\ncheckGoalReached()"]
+// EPXCrowdsale
+init[label="init"]
+"1-0-0-0-0-6-"[label="SetupCrowdsale(_fundingStartBlock, _fundingEndBlock) "]
+"0-0-0-4-0-6-"[label="checkGoalReached() "]
+"0-2-0-4-0-6-"[label="buy()\ncheckGoalReached()"]
+}

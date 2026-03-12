@@ -1,0 +1,6 @@
+digraph {
+init->"0-2-0-0-5-0-" [label="constructor"]
+// ValidatorAuction
+init[label="init"]
+"0-2-0-0-5-0-"[label="startAuction()\naddToWhitelist(addressesToWhitelist)"]
+}

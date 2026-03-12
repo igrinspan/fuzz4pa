@@ -1,0 +1,7 @@
+digraph {
+init->"1-2-" [label="constructor"]
+"1-2-"->"1-2-" [label="ComputeTotal()\nGetDefectiveComponentsCounτ"]
+// DefectiveComponentCounter
+init[label="init"]
+"1-2-"[label="ComputeTotal()GetDefectiveComponentsCoun"]
+}

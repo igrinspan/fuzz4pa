@@ -1,0 +1,9 @@
+digraph {
+init->"1-0-0-" [label="constructor"]
+"0-2-3-"->"0-2-3-" [label="SetMode(mode)\nSetTargetTemperature(targetTemperature)"]
+"1-0-0-"->"0-2-3-" [label="StartThermostaτ"]
+// RoomThermostat
+init[label="init"]
+"1-0-0-"[label="StartThermosta"]
+"0-2-3-"[label="SetTargetTemperature(targetTemperature)\nSetMode(mode)"]
+}
