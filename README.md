@@ -27,7 +27,7 @@ To replicate our results, the tool can be easily downloaded and set up using Doc
 
         ```bash
         docker run --rm \
-        -v $PWD/fuzz4pa_results:/fuzz4pa_results \
+        -v $(pwd)/fuzz4pa_results:/fuzz4pa_results \
         igrinspan/fuzz4pa:icst2026
         ```
 
@@ -61,7 +61,7 @@ To replicate our results, the tool can be easily downloaded and set up using Doc
 
         ```bash
         docker run --rm \
-        -v $PWD/fuzz4pa_results:/fuzz4pa_results \
+        -v $(pwd)/fuzz4pa_results:/fuzz4pa_results \
         igrinspan/fuzz4pa:icst2026 \
         --auto BasicProvenanceFixed \
         --mode requires \
@@ -72,7 +72,7 @@ To replicate our results, the tool can be easily downloaded and set up using Doc
 
         ```bash
         docker run --rm \
-        -v $PWD/fuzz4pa_results:/fuzz4pa_results \
+        -v $(pwd)/fuzz4pa_results:/fuzz4pa_results \
         igrinspan/fuzz4pa:icst2026 \
         --config EscrowVaultConfig \
         --mode enum \
